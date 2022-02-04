@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 :root {
   --color-fondo:#111518;
-  --color-fondo-celular:#212327; }
+  --color-fondo-celular:#212327;
+  --color-primaryButton:#2C2F32;
+  --color-secundaryButton:#9481FD; }
 
 html {
   background-color: var(--color-fondo); }
@@ -33,5 +35,19 @@ body {
   .calc__container {
     border-radius: 4rem;
     width: 40rem;
-    height: 60rem;
-    background-color: var(--color-fondo-celular); }
+    height: 70rem;
+    background-color: var(--color-fondo-celular);
+    display: grid;
+    grid-template-rows: 1fr 1fr; }
+  .calc__container-button {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+    justify-items: center;
+    align-items: center; }
+  .calc__button {
+    border-radius: 4rem;
+    width: 7rem;
+    height: 7rem;
+    background-color: var(--color-primaryButton);
+    grid-gap: 1rem; }
