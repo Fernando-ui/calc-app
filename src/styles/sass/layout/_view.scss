@@ -1,0 +1,13 @@
+.calc{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &__container{
+        border-radius: 4rem;
+        width:40rem;
+        height:60rem;
+        background-color:var(--color-fondo-celular);
+    }
+}
+            

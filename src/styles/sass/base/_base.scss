@@ -1,0 +1,24 @@
+html{
+    background-color:var(--color-fondo);
+}  
+*,
+*::afer,
+*::before{  
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+html{ 
+    font-size:10px;
+}
+
+body{
+    color:#fff;
+    font-size: 2.4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing:border-box;
+    position:relative;       
+    width:98vw;
+    height: 98vh;
+}
+           
