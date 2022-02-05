@@ -4,49 +4,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   &__container {
-    border-radius: 4rem;
-    width: 40rem;
-    height: 70rem;
     background-color: var(--color-fondo-celular);
+    border-radius: 4rem;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    height: 70rem;
     padding-bottom: 2rem;
+    width: 40rem;
   }
+}
 
-  &__container-button {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(5, 20%);
-    justify-items: center;
-    align-items: center;
-    // grid-gap: .1   rem;
-  }
-  &__button {
-    border-radius: 4rem;
-    width: 6rem;
-    height: 6rem;
-    background-color: var(--color-primaryButton);
-    grid-gap: 1rem;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  &__button--inf {
-    display: inline-block;
-    padding-top: 25%;
-  }
-}
-.button {
-  &-1 {
-    border: solid 0.1rem var(--color-secondaryButton);
-    &:nth-child(1) {
-      color: var(--color-secondaryButton);
-    }
-  }
-  &-20 {
-    background-color: var(--color-secondaryButton);
-  }
-}
-.button-7{
-  span
-}

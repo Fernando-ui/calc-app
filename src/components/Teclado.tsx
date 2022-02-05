@@ -5,7 +5,7 @@ export const Teclado = () => {
     <>
       <div className="calc__container-button">
         <div className="calc__button button-1">
-          <span className="calc__button--inf inf-clean">C</span>
+          <span className="calc__button--inf inf-clean">C</span>     
         </div>
         <div className="calc__button button-2">
           <span className="calc__button--inf">%</span>

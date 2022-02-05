@@ -1,0 +1,9 @@
+.calc{
+    &__screen{
+        display:grid;
+        grid-template-rows: 10% 90%;
+        &-input{
+
+        }
+    }
+} 
