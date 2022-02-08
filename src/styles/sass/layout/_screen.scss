@@ -22,16 +22,16 @@
       border: none;
       text-align: right;
       font-size: 5rem;
-      color:#fff;
-      font-family: var(--tipo-texto);  
-      letter-spacing: .1rem;
+      color: #fff;
+      font-family: var(--tipo-texto);
+      letter-spacing: 0.1rem;
     }
     &-size:read-write:focus {
       outline: none;
     }
-    &-input-1{
-      height:2rem; 
-      font-size:2rem;
+    &-input-1 {
+      height: 2rem;
+      font-size: 2rem;
     }
-  } 
-}  
+  }
+}

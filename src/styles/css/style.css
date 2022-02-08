@@ -88,7 +88,7 @@ input[type=number] {
     font-size: 5rem;
     color: #fff;
     font-family: var(--tipo-texto);
-    letter-spacing: .1rem; }
+    letter-spacing: 0.1rem; }
   .calc__input-size:read-write:focus {
     outline: none; }
   .calc__input-input-1 {
