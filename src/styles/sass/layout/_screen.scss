@@ -22,9 +22,13 @@
       border: none;
       text-align: right;
       font-size: 5rem;
+      color:#fff;
+      font-family: var(--tipo-texto);  
+      letter-spacing: .1rem;
     }
     &-size:read-write:focus {
       outline: none;
     }
   }
-}
+} 
+  

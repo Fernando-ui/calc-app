@@ -4,7 +4,9 @@
   --color-fondo-celular:#212327;
   --color-primaryButton:#2C2F32;
   --color-secondaryButton:#9481FD;
-  --color-texto:#34363F; }
+  --color-texto:#34363F;
+  --tipo-Texto:'Source Sans Pro', sans-serif;
+  box-sizing: border-box; }
 
 html {
   background-color: var(--color-fondo); }
@@ -83,7 +85,10 @@ input[type=number] {
     background-color: transparent;
     border: none;
     text-align: right;
-    font-size: 5rem; }
+    font-size: 5rem;
+    color: #fff;
+    font-family: var(--tipo-texto);
+    letter-spacing: .1rem; }
   .calc__input-size:read-write:focus {
     outline: none; }
 
