@@ -1,9 +1,20 @@
-.calc{
-    &__screen{
-        display:grid;
-        grid-template-rows: 10% 90%;
-        &-input{
-
-        }
+.calc {
+  &__screen {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    &-img {
+      width: 2rem;
+      filter: greyscale(1.5);
     }
-} 
+    &-header .calc__screen-delete {
+      text-align: right;
+      display: block;
+      margin-right: 3.5rem;
+      text-transform: uppercase;
+      color: var(--color-texto);
+      letter-spacing: .1rem;
+      font-size: 1.7rem;
+      cursor: pointer;
+    }
+  }
+}
