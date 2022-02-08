@@ -1,20 +1,30 @@
 .calc {
-  &__screen {
+  &__header {
     display: grid;
     grid-template-rows: 10% 90%;
-    &-img {
-      width: 2rem;
-      filter: greyscale(1.5);
-    }
-    &-header .calc__screen-delete {
+    &-delete .calc__header-button {
       text-align: right;
       display: block;
       margin-right: 3.5rem;
       text-transform: uppercase;
       color: var(--color-texto);
-      letter-spacing: .1rem;
+      letter-spacing: 0.1rem;
       font-size: 1.7rem;
       cursor: pointer;
+    }
+  }
+  &__input {
+    margin-top: auto;
+    &-size {
+      height: 4rem;
+      width: 98%;
+      background-color: transparent;
+      border: none;
+      text-align: right;
+      font-size: 5rem;
+    }
+    &-size:read-write:focus {
+      outline: none;
     }
   }
 }

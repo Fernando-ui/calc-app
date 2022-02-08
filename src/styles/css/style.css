@@ -28,6 +28,14 @@ body {
   height: 98vh;
   position: relative; }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
+
 .calc__container-button {
   display: grid;
   grid-template-columns: repeat(4, 25%);
@@ -54,21 +62,30 @@ body {
 .button-20 {
   background-color: var(--color-secondaryButton); }
 
-.calc__screen {
+.calc__header {
   display: grid;
   grid-template-rows: 10% 90%; }
-  .calc__screen-img {
-    width: 2rem;
-    filter: greyscale(1.5); }
-  .calc__screen-header .calc__screen-delete {
+  .calc__header-delete .calc__header-button {
     text-align: right;
     display: block;
     margin-right: 3.5rem;
     text-transform: uppercase;
     color: var(--color-texto);
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     font-size: 1.7rem;
     cursor: pointer; }
+
+.calc__input {
+  margin-top: auto; }
+  .calc__input-size {
+    height: 4rem;
+    width: 98%;
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    font-size: 5rem; }
+  .calc__input-size:read-write:focus {
+    outline: none; }
 
 .calc {
   position: absolute;
