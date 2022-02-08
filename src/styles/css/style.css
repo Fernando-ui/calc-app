@@ -27,41 +27,46 @@ body {
   height: 98vh;
   position: relative; }
 
+.calc__container-button {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(5, 20%);
+  justify-items: center;
+  align-items: center; }
+
+.calc__button {
+  border-radius: 4rem;
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-primaryButton);
+  grid-gap: 1rem;
+  text-align: center;
+  cursor: pointer; }
+
+.calc__button--inf {
+  display: inline-block;
+  padding-top: 25%; }
+
+.button-1 {
+  border: solid 0.1rem var(--color-secondaryButton); }
+
+.button-20 {
+  background-color: var(--color-secondaryButton); }
+
+.calc__screen {
+  display: grid;
+  grid-template-rows: 10% 90%; }
+
 .calc {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
   .calc__container {
-    border-radius: 4rem;
-    width: 40rem;
-    height: 70rem;
     background-color: var(--color-fondo-celular);
+    border-radius: 4rem;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    padding-bottom: 2rem; }
-  .calc__container-button {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(5, 20%);
-    justify-items: center;
-    align-items: center; }
-  .calc__button {
-    border-radius: 4rem;
-    width: 6rem;
-    height: 6rem;
-    background-color: var(--color-primaryButton);
-    grid-gap: 1rem;
-    text-align: center;
-    cursor: pointer; }
-  .calc__button--inf {
-    display: inline-block;
-    padding-top: 25%; }
-
-.button-1 {
-  border: solid 0.1rem var(--color-secondaryButton); }
-  .button-1:nth-child(1) {
-    color: var(--color-secondaryButton); }
-
-.button-20 {
-  background-color: var(--color-secondaryButton); }
+    height: 70rem;
+    padding-bottom: 2rem;
+    width: 40rem; }

@@ -1,0 +1,32 @@
+.calc {
+  &__container-button {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+    justify-items: center;
+    align-items: center;
+    // grid-gap: .1   rem;
+  }
+  &__button {
+    border-radius: 4rem;
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--color-primaryButton);
+    grid-gap: 1rem;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__button--inf {
+    display: inline-block;
+    padding-top: 25%;
+  }
+}
+.button {
+  &-1 {
+    border: solid 0.1rem var(--color-secondaryButton);
+  }
+  &-20 {
+    background-color: var(--color-secondaryButton);
+  }
+}
