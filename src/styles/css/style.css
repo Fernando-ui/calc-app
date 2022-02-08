@@ -91,6 +91,9 @@ input[type=number] {
     letter-spacing: .1rem; }
   .calc__input-size:read-write:focus {
     outline: none; }
+  .calc__input-input-1 {
+    height: 2rem;
+    font-size: 2rem; }
 
 .calc {
   position: absolute;
