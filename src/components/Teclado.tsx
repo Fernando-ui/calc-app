@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useReducer } from "react";
+import { calcReducer, initialState } from "../reducers/operations.Reducer";
 
 export const Teclado = () => {
+  const [state, dispatch] = useReducer(calcReducer, initialState);
+//  TODO Tendremos que usar el redux para poder guardar los valores e irlos sumando e ir pasando la informacion
+
   return (
     <>
       <div className="calc__container-button">
